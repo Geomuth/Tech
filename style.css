@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+header, footer {
+  background: #222;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+h1, h2, h3 {
+  margin-top: 0.5em;
+}
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 0 1em;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+a {
+  color: brown ;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none ;
+}
+.ad-section {
+  margin: 1.5em 0;
+  background: #eee;
+  padding: 1em;
+  text-align: center;
+  min-height: 100px;
+}
+.blog-post img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.news-ticker {
+  background: lightblue ;  
+   display: inline-block;
+  padding: 0 10px;
+  font-size: 18px;
+  content: all;
+  display: inline-block;
+  animation: scrollLeft 30s linear infinite;
+  font-weight: bold;
+  padding: 0.5em;
+  text-align: center;
+}
+.news-ticker a {
+  margin: 0 1em;
+  color: black ;
+}
+.blog-item {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
